@@ -1,4 +1,4 @@
-forgerock-ig/
+kubernetes/
 ├── base/
 │   ├── deployment.yaml
 │   ├── service.yaml
@@ -12,4 +12,4 @@ forgerock-ig/
 │   │   ├── kustomization.yaml
 │   │   ├── patches.yaml
 │   │   └── configmap.yaml
-└── README.md
+└── structure.txt
