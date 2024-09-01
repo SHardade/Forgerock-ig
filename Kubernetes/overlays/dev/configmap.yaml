@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ig-config
+data:
+  ig.properties: |
+    # Sample configuration properties for ForgeRock IG
+    server.port=8080
+    ig.logging.level=INFO
