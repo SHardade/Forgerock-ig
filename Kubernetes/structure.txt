@@ -1,0 +1,15 @@
+forgerock-ig/
+├── base/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   ├── kustomization.yaml
+├── overlays/
+│   ├── dev/
+│   │   ├── kustomization.yaml
+│   │   ├── patches.yaml
+│   │   └── configmap.yaml
+│   ├── prod/
+│   │   ├── kustomization.yaml
+│   │   ├── patches.yaml
+│   │   └── configmap.yaml
+└── README.md
