@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: ig-config
-data:
-  ig.properties: |
-    # Production configuration properties for ForgeRock IG
-    server.port=8443
-    ig.logging.level=ERROR
